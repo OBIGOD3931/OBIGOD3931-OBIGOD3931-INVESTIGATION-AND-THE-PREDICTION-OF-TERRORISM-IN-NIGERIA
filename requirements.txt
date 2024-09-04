@@ -1,0 +1,17 @@
+matplotlib
+numpy
+pandas
+plotly
+seaborn
+streamlit
+streamlit_option_menu
+scikit-learn
+joblib
+sqlite3
+PIL
+category_encoders 
+geocoder
+time
+mysql
+os
+dotenv 
