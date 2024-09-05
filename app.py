@@ -190,13 +190,11 @@ elif selected == "Make Report":
     # Function to connect and create MySQL table
     def create_reports_table():
 
-        db_user = os.getenv('MYSQL_USER')
-        db_password = os.getenv('MYSQL_PASSWORD')
         # Establish connection to the MySQL database
         connection = mysql.connector.connect(
             host='sql5.freesqldatabase.com',
-            user=db_user,
-            password=db_password,
+            user='sql5729527',
+            password='T2RVEewsi7',
             database='sql5729527'
         )
 
@@ -240,15 +238,13 @@ elif selected == "Make Report":
                     weapon_type, weapon_subtype, no_killed, no_wounded, full_name,
                     mobile_contact, email_contact, address):
 
-        # Fetch environment variables
-        db_user = os.getenv('MYSQL_USER')
-        db_password = os.getenv('MYSQL_PASSWORD')
+        
         
         # Establish connection to the MySQL database
         conn = mysql.connector.connect(
             host='sql5.freesqldatabase.com',
-            user=db_user,
-            password=db_password,
+            user='sql5729527',
+            password='T2RVEewsi7',
             database='sql5729527'
         )
         
