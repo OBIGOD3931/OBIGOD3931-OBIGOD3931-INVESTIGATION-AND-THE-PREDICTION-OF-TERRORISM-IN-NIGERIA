@@ -17,3 +17,6 @@ div.appview-container.st-emotion-cache-1wrcr25.ea3mdgi4 {
     background-position: center; /* Centers the image in the div */
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
+body{
+     background-image: url('background.JPG');
+}
