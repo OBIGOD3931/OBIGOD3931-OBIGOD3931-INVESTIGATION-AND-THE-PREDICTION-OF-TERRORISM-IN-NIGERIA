@@ -19,8 +19,8 @@ st.set_page_config(page_title="INVESTIGATION AND PREDICTION OF TERRORISM IN NIGE
 # Add meta tag for viewport
 #url("https://your-image-url.jpg");
 
-with open("index.css") as app_css:
-    st.markdown(f"<style>{app_css.read()}</style>", unsafe_allow_html=True)
+#with open("index.css") as app_css:
+#    st.markdown(f"<style>{app_css.read()}</style>", unsafe_allow_html=True)
 
 
 page_bg_img = '''
