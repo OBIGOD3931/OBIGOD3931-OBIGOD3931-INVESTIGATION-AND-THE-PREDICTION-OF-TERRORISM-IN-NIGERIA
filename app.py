@@ -45,7 +45,7 @@ def set_image_as_page_bg(image_file):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Call this function at the start of your app to set the background image
-set_image_as_page_bg('bgimage1.jpg')
+set_image_as_page_bg('bgimage3.JPG')
 
     
 
