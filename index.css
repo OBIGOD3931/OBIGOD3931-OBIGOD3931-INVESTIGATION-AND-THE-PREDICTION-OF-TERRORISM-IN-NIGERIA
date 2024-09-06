@@ -5,3 +5,15 @@ div.appview-container.st-emotion-cache-1wrcr25.ea3mdgi4 {
     background-repeat: no-repeat; /* Prevents the image from repeating */
 }
 
+.styles_streamlitAppContainer__w82h8.styles_stateContainer__CelYF {
+    display: flex;
+    flex: 1 1 auto;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative;
+
+    background-image: url('background.JPG');
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image in the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
