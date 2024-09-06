@@ -18,23 +18,9 @@ st.set_page_config(page_title="INVESTIGATION AND PREDICTION OF TERRORISM IN NIGE
 
 # Add meta tag for viewport
 #url("https://your-image-url.jpg");
-st.markdown(
-    """
-    <style>
-    .stApp {
-        background-image: background.JPG 
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-attachment: fixed;
-    };
-    
-    .reportview-container {
-        max-width: 100%;
-    }
-    </style>
-    """,
-    unsafe_allow_html=True
-)
+
+with open("index.css") as app_css:
+    st.markdown(f"<style>{app_css.read()}</style>", unsafe_allow_html=True)
 
 col1, col2 = st.columns([1, 1], gap='small')
 
