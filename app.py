@@ -39,7 +39,7 @@ st.markdown(
 col1, col2 = st.columns([1, 1], gap='small')
 
 with col1:
-    logo = Image.open('img10.jpg')
+    logo = Image.open('img9.JPG')
     
     # Set the desired width and height
     width = 700
@@ -56,7 +56,7 @@ with col2:
     st.subheader(":blue[Terrorism will spill over if you don’t speak up]")
     
 
-    st.write("Malala Yousafzai")
+    #st.write("Malala Yousafzai")
     
 with st.sidebar:
     selected = option_menu(menu_title='Main menu', options=['Home', 'Visualizations', 'Prediction', 'Make Report', 'About'], 
