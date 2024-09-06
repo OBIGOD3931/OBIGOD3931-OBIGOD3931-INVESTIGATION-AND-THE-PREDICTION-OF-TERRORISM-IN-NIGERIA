@@ -22,6 +22,18 @@ st.set_page_config(page_title="INVESTIGATION AND PREDICTION OF TERRORISM IN NIGE
 with open("index.css") as app_css:
     st.markdown(f"<style>{app_css.read()}</style>", unsafe_allow_html=True)
 
+
+page_bg_img = '''
+<style>
+body {
+background-image: url("https://images.unsplash.com/photo-1542281286-9e0a16bb7366");
+background-size: cover;
+}
+</style>
+'''
+
+st.markdown(page_bg_img, unsafe_allow_html=True)
+
 col1, col2 = st.columns([1, 1], gap='small')
 
 with col1:
