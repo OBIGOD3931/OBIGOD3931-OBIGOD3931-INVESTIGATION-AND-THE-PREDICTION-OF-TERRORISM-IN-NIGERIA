@@ -88,7 +88,7 @@ with st.sidebar:
                            menu_icon="cast", default_index=0)
 
 # Load the trained Random Forest model
-model = joblib.load('final_model1.pkl')
+model = joblib.load('final_model2.pkl')
 
 # Load the encoders used during training
 #ordinal_encoders = joblib.load('re_ordinal_encoders.pkl')  # For year, month, and day
