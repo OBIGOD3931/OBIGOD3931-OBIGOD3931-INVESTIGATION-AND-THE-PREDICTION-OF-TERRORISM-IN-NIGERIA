@@ -12,6 +12,7 @@ import mysql.connector
 import os
 from dotenv import load_dotenv
 import base64
+import sklearn
 
 
 # Set the webpage title and layout 
