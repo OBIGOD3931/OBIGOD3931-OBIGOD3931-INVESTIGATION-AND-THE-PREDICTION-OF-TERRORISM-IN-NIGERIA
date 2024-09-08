@@ -16,7 +16,7 @@ import base64
 
 # Set the webpage title and layout 
 st.set_page_config(page_title="INVESTIGATION AND PREDICTION OF TERRORISM IN NIGERIA", page_icon='imag3.webp', layout="wide") 
-st.write("Scikit-learn version:", sklearn.__version__)
+
 
 # Add meta tag for viewport
 #url("https://your-image-url.jpg");
@@ -79,6 +79,8 @@ with col1:
 with col2:
     st.title(':red[INVESTIGATION AND PREDICTION OF TERRORISM IN NIGERIA]')
     st.subheader(":blue[Terrorism will spill over if you don’t speak up]")
+
+    st.write("Scikit-learn version:", sklearn.__version__)
     
 
     #st.write("Malala Yousafzai")
